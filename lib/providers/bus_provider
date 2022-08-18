@@ -1,0 +1,51 @@
+import 'dart:collection';
+
+import 'package:admin/models/busdetails_model.dart';
+import 'package:admin/services/firestore_service.dart';
+import 'package:flutter/cupertino.dart';
+
+//inter mediary of service and view
+class BusProvider with ChangeNotifier {
+
+final firestoreService = FirestoreService();
+
+  String bus_class;
+  String bus_plate_number;
+  String bus_seat_capacity;
+  String bus_status;
+  String bus_type;
+
+  //Getters
+
+  String get busClass => bus_class;
+  String get busPlateNumber => bus_plate_number;
+  String get busCapacity => bus_seat_capacity;
+  String get busStatus => bus_status;
+  String get busType => bus_type;
+  Stream<List<Bus>> get busses => firestoreService.getBus();
+
+  //Setters
+  set changeBusCapacity(String busCapacity){
+    bus_seat_capacity = busCapacity;
+    notifyListeners();
+  }
+
+  //Functions
+  loadAll(Bus bus){
+    if (bus!=null){
+      bus_plate_number = bus.bus_plate_number;
+      bus_class = bus.bus_class;
+      bus_seat_capacity = bus.bus_seat_capacity;
+      bus_type = bus.bus_type;
+    }
+    
+  }
+
+  // saveBus(){
+  //   if(bus_plate_number == null){
+  //     //add
+
+  //   }
+  // }
+
+}

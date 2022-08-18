@@ -1,0 +1,295 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "all_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Booking Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Seat Number`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Trip ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Booking Status`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Trip ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Booking Status`",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "Present",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "UID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Booking Status`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "UID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Booking Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "UID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Bus Type`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Destination Route`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Origin Route`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Travel Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Driver ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Travel Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Driver ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Travel Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Driver ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Travel Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Travel Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "all_trips",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Trip Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Date`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Departure Time`",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "cagsawa_bookingForms",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "`Booking Status`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Trip ID`",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "`Seat Number`",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
